@@ -136,12 +136,12 @@ export default function Dashboard() {
             <select
               value={filter}
               onChange={(e) => setFilter(e.target.value)}
-              className="form-select w-full md:w-48 bg-white/10 text-white border-white/20 focus:border-purple-500 focus:ring focus:ring-purple-500/50"
+              className="form-select w-full md:w-48 bg-white/10 text-black border-white/20 focus:border-purple-500 focus:ring focus:ring-purple-500/50"
             >
-              <option value="All">All Books</option>
-              <option value="To Read">To Read</option>
-              <option value="Reading">Reading</option>
-              <option value="Read">Read</option>
+              <option value="All" className="text-black">All Books</option>
+              <option value="To Read" className="text-black">To Read</option>
+              <option value="Reading" className="text-black">Reading</option>
+              <option value="Read" className="text-black">Read</option>
             </select>
           </div>
         </motion.div>

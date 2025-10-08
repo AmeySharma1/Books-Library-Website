@@ -75,7 +75,7 @@ export default function EditBook() {
         data.append('coverImage', coverImage);
       }
 
-      await api.patch(`/books/${id}`, data, {
+      await api.put(`/books/${id}`, data, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

@@ -12,11 +12,11 @@ export default function AddStatusModal({ isOpen, onClose, onSave }) {
         <select
           value={status}
           onChange={(e) => setStatus(e.target.value)}
-          className="w-full border p-2 rounded mb-4"
+          className="w-full border p-2 rounded mb-4 text-black"
         >
-          <option value="To Read">To Read</option>
-          <option value="Reading">Reading</option>
-          <option value="Read">Read</option>
+          <option value="To Read" className="text-black">To Read</option>
+          <option value="Reading" className="text-black">Reading</option>
+          <option value="Read" className="text-black">Read</option>
         </select>
         <div className="flex justify-end gap-2">
           <button

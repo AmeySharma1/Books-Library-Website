@@ -37,7 +37,7 @@ NODE_ENV=production
 
 **Client (.env file):**
 ```env
-VITE_API_URL=https://your-backend-domain.onrender.com
+VITE_API_URL=https://books-library-website-2.onrender.com
 ```
 
 ## Render Deployment

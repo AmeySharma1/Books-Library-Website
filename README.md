@@ -58,7 +58,7 @@ npm install
 2. Copy `.env.example` to `.env` and adjust the API URL if necessary:
 
 ```
-VITE_API_URL=http://localhost:5000
+VITE_API_URL=https://books-library-website-2.onrender.com
 ```
 
 3. Start the React dev server:

@@ -1,5 +1,39 @@
-# .gitignore
+# Dependencies
 node_modules/
+*/node_modules/
+
+# Environment variables
 .env
-.DS_Store
+*/.env
+
+# Build outputs
+client/dist/
+client/dist.zip
+server.zip
+
+# Upload files (should not be committed)
+server/uploads/
+
+# Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel/
+*/.vercel/
+
+# Temporary files
+*.tmp
+*.temp
